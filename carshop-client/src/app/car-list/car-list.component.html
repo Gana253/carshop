@@ -1,0 +1,36 @@
+
+<mat-card style="background-color: honeydew">
+  <mat-card-title> List Of Cars Available </mat-card-title>
+</mat-card>
+
+<table  id="cars">
+  <tr>
+   <th *ngFor="let column of headers">
+      {{column}}
+    </th>
+  </tr>
+    <tr *ngFor="let vehicle of vehicles">
+      <td>
+        {{vehicle.make}}
+      </td>
+      <td>
+        {{vehicle.model}}
+      </td>
+      <td>
+        {{vehicle.yearModel}}
+      </td>
+
+      <td>
+        {{vehicle.price}}
+      </td>
+
+      <td>
+        {{vehicle.licensed}}
+      </td>
+
+      <td>
+        {{vehicle.dateAdded}}
+      </td>
+
+    </tr>
+</table>
