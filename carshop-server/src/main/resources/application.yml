@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+load:
+  default-data: true
+
+spring:
+  application:
+    name: carshop
+  datasource:
+    url: jdbc:mysql://localhost:3306/carshop?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=ECT&createDatabaseIfNotExist=true
+    username: root
+    password:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate.enable_lazy_load_no_trans: false
+    database: mysql
+
+logging:
+  level:
+    root: INFO
+  file:
+    path: logs/
+    name: logs/carshop.log

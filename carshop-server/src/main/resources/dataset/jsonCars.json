@@ -1,0 +1,690 @@
+[
+  {
+    "name": "Warehouse A",
+    "location": {
+      "lat": "47.13111",
+      "long": "-61.54801"
+    },
+    "cars": {
+      "location": "West wing",
+      "vehicles": [
+        {
+          "make": "Volkswagen",
+          "model": "Jetta III",
+          "yearModel": 1995,
+          "price": 12947.52,
+          "licensed": true,
+          "dateAdded": "2018-09-18"
+        },
+        {
+          "make": "Chevrolet",
+          "model": "Corvette",
+          "yearModel": 2004,
+          "price": 20019.64,
+          "licensed": true,
+          "dateAdded": "2018-01-27"
+        },
+        {
+          "make": "Ford",
+          "model": "Expedition EL",
+          "yearModel": 2008,
+          "price": 27323.42,
+          "licensed": false,
+          "dateAdded": "2018-07-03"
+        },
+        {
+          "make": "Infiniti",
+          "model": "FX",
+          "yearModel": 2010,
+          "price": 8541.62,
+          "licensed": true,
+          "dateAdded": "2018-03-23"
+        },
+        {
+          "make": "GMC",
+          "model": "Safari",
+          "yearModel": 1998,
+          "price": 14772.5,
+          "licensed": false,
+          "dateAdded": "2018-07-04"
+        },
+        {
+          "make": "Plymouth",
+          "model": "Colt Vista",
+          "yearModel": 1994,
+          "price": 6642.45,
+          "licensed": true,
+          "dateAdded": "2018-07-11"
+        },
+        {
+          "make": "Cadillac",
+          "model": "Escalade ESV",
+          "yearModel": 2008,
+          "price": 24925.75,
+          "licensed": false,
+          "dateAdded": "2018-01-29"
+        },
+        {
+          "make": "Mitsubishi",
+          "model": "Pajero",
+          "yearModel": 2002,
+          "price": 28619.45,
+          "licensed": false,
+          "dateAdded": "2018-06-12"
+        },
+        {
+          "make": "Infiniti",
+          "model": "Q",
+          "yearModel": 1995,
+          "price": 6103.4,
+          "licensed": false,
+          "dateAdded": "2017-11-13"
+        },
+        {
+          "make": "Ford",
+          "model": "Mustang",
+          "yearModel": 1993,
+          "price": 18992.7,
+          "licensed": false,
+          "dateAdded": "2018-01-29"
+        },
+        {
+          "make": "Chevrolet",
+          "model": "G-Series 1500",
+          "yearModel": 1997,
+          "price": 23362.41,
+          "licensed": false,
+          "dateAdded": "2018-07-30"
+        },
+        {
+          "make": "Cadillac",
+          "model": "DeVille",
+          "yearModel": 1993,
+          "price": 18371.53,
+          "licensed": false,
+          "dateAdded": "2018-01-24"
+        },
+        {
+          "make": "Acura",
+          "model": "NSX",
+          "yearModel": 2001,
+          "price": 23175.76,
+          "licensed": false,
+          "dateAdded": "2018-03-28"
+        },
+        {
+          "make": "Ford",
+          "model": "Econoline E250",
+          "yearModel": 1994,
+          "price": 26605.54,
+          "licensed": true,
+          "dateAdded": "2018-05-13"
+        },
+        {
+          "make": "Lexus",
+          "model": "GX",
+          "yearModel": 2005,
+          "price": 27395.26,
+          "licensed": false,
+          "dateAdded": "2017-11-12"
+        },
+        {
+          "make": "Dodge",
+          "model": "Ram Van 3500",
+          "yearModel": 1999,
+          "price": 6244.51,
+          "licensed": true,
+          "dateAdded": "2018-09-28"
+        },
+        {
+          "make": "Dodge",
+          "model": "Caravan",
+          "yearModel": 1995,
+          "price": 16145.27,
+          "licensed": false,
+          "dateAdded": "2017-11-25"
+        },
+        {
+          "make": "Dodge",
+          "model": "Dynasty",
+          "yearModel": 1992,
+          "price": 15103.84,
+          "licensed": true,
+          "dateAdded": "2018-08-12"
+        },
+        {
+          "make": "Dodge",
+          "model": "Ram 1500",
+          "yearModel": 2004,
+          "price": 9977.65,
+          "licensed": true,
+          "dateAdded": "2018-01-18"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Warehouse B",
+    "location": {
+      "lat": "15.95386",
+      "long": "7.06246"
+    },
+    "cars": {
+      "location": "East wing",
+      "vehicles": [
+        {
+          "make": "Maserati",
+          "model": "Coupe",
+          "yearModel": 2005,
+          "price": 19957.71,
+          "licensed": false,
+          "dateAdded": "2017-11-14"
+        },
+        {
+          "make": "Isuzu",
+          "model": "Rodeo",
+          "yearModel": 1998,
+          "price": 6303.99,
+          "licensed": false,
+          "dateAdded": "2017-12-03"
+        },
+        {
+          "make": "Infiniti",
+          "model": "I",
+          "yearModel": 2002,
+          "price": 6910.16,
+          "licensed": false,
+          "dateAdded": "2017-10-15"
+        },
+        {
+          "make": "Nissan",
+          "model": "Altima",
+          "yearModel": 1994,
+          "price": 8252.66,
+          "licensed": false,
+          "dateAdded": "2018-08-12"
+        },
+        {
+          "make": "Toyota",
+          "model": "Corolla",
+          "yearModel": 2009,
+          "price": 23732.11,
+          "licensed": false,
+          "dateAdded": "2018-02-13"
+        },
+        {
+          "make": "Acura",
+          "model": "MDX",
+          "yearModel": 2011,
+          "price": 8487.19,
+          "licensed": false,
+          "dateAdded": "2018-04-18"
+        },
+        {
+          "make": "BMW",
+          "model": "7 Series",
+          "yearModel": 1998,
+          "price": 29069.52,
+          "licensed": false,
+          "dateAdded": "2017-10-29"
+        },
+        {
+          "make": "Nissan",
+          "model": "Maxima",
+          "yearModel": 2004,
+          "price": 11187.68,
+          "licensed": false,
+          "dateAdded": "2018-07-16"
+        },
+        {
+          "make": "Audi",
+          "model": "A8",
+          "yearModel": 1999,
+          "price": 16047.9,
+          "licensed": false,
+          "dateAdded": "2017-12-05"
+        },
+        {
+          "make": "Nissan",
+          "model": "Murano",
+          "yearModel": 2005,
+          "price": 25859.78,
+          "licensed": false,
+          "dateAdded": "2018-06-06"
+        },
+        {
+          "make": "Acura",
+          "model": "RL",
+          "yearModel": 2010,
+          "price": 13232.13,
+          "licensed": true,
+          "dateAdded": "2017-12-16"
+        },
+        {
+          "make": "Mitsubishi",
+          "model": "Chariot",
+          "yearModel": 1987,
+          "price": 15665.23,
+          "licensed": false,
+          "dateAdded": "2018-02-21"
+        },
+        {
+          "make": "GMC",
+          "model": "3500 Club Coupe",
+          "yearModel": 1992,
+          "price": 18129.37,
+          "licensed": true,
+          "dateAdded": "2018-09-23"
+        },
+        {
+          "make": "Dodge",
+          "model": "Dakota",
+          "yearModel": 2009,
+          "price": 14479.37,
+          "licensed": false,
+          "dateAdded": "2017-12-12"
+        },
+        {
+          "make": "Mercury",
+          "model": "Grand Marquis",
+          "yearModel": 1996,
+          "price": 20614.72,
+          "licensed": false,
+          "dateAdded": "2018-05-26"
+        },
+        {
+          "make": "Kia",
+          "model": "Sportage",
+          "yearModel": 2001,
+          "price": 27106.47,
+          "licensed": false,
+          "dateAdded": "2018-03-14"
+        },
+        {
+          "make": "Chevrolet",
+          "model": "Blazer",
+          "yearModel": 1994,
+          "price": 14835.48,
+          "licensed": false,
+          "dateAdded": "2017-11-10"
+        },
+        {
+          "make": "Mercedes-Benz",
+          "model": "SL-Class",
+          "yearModel": 1994,
+          "price": 27717.28,
+          "licensed": false,
+          "dateAdded": "2018-08-17"
+        },
+        {
+          "make": "Honda",
+          "model": "Civic Si",
+          "yearModel": 2003,
+          "price": 18569.86,
+          "licensed": true,
+          "dateAdded": "2018-09-12"
+        },
+        {
+          "make": "Mercedes-Benz",
+          "model": "CL-Class",
+          "yearModel": 2002,
+          "price": 23494.78,
+          "licensed": true,
+          "dateAdded": "2018-05-24"
+        },
+        {
+          "make": "Volkswagen",
+          "model": "Jetta",
+          "yearModel": 2006,
+          "price": 25469.49,
+          "licensed": false,
+          "dateAdded": "2018-04-23"
+        },
+        {
+          "make": "Pontiac",
+          "model": "Grand Prix",
+          "yearModel": 1975,
+          "price": 11600.74,
+          "licensed": true,
+          "dateAdded": "2018-01-14"
+        },
+        {
+          "make": "Infiniti",
+          "model": "FX",
+          "yearModel": 2012,
+          "price": 22000.62,
+          "licensed": true,
+          "dateAdded": "2018-06-09"
+        },
+        {
+          "make": "Jaguar",
+          "model": "XK",
+          "yearModel": 2006,
+          "price": 10260.79,
+          "licensed": true,
+          "dateAdded": "2018-09-28"
+        },
+        {
+          "make": "Cadillac",
+          "model": "STS",
+          "yearModel": 2007,
+          "price": 13740.2,
+          "licensed": false,
+          "dateAdded": "2018-02-25"
+        },
+        {
+          "make": "Pontiac",
+          "model": "Sunfire",
+          "yearModel": 1997,
+          "price": 28489.1,
+          "licensed": false,
+          "dateAdded": "2017-12-05"
+        },
+        {
+          "make": "Cadillac",
+          "model": "SRX",
+          "yearModel": 2004,
+          "price": 26750.38,
+          "licensed": true,
+          "dateAdded": "2018-08-07"
+        },
+        {
+          "make": "Land Rover",
+          "model": "Freelander",
+          "yearModel": 2004,
+          "price": 21770.59,
+          "licensed": false,
+          "dateAdded": "2018-09-01"
+        },
+        {
+          "make": "Suzuki",
+          "model": "Forenza",
+          "yearModel": 2005,
+          "price": 28834.26,
+          "licensed": false,
+          "dateAdded": "2018-05-09"
+        },
+        {
+          "make": "Saab",
+          "model": "9-7X",
+          "yearModel": 2005,
+          "price": 25975.68,
+          "licensed": false,
+          "dateAdded": "2018-06-07"
+        },
+        {
+          "make": "Ford",
+          "model": "Fusion",
+          "yearModel": 2012,
+          "price": 28091.96,
+          "licensed": false,
+          "dateAdded": "2018-07-15"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Warehouse C",
+    "location": {
+      "lat": "39.12788",
+      "long": "-2.71398"
+    },
+    "cars": {
+      "location": "Suid wing",
+      "vehicles": [
+        {
+          "make": "Cadillac",
+          "model": "Escalade",
+          "yearModel": 2005,
+          "price": 7429.18,
+          "licensed": true,
+          "dateAdded": "2018-09-26"
+        },
+        {
+          "make": "Porsche",
+          "model": "Cayenne",
+          "yearModel": 2011,
+          "price": 17066.31,
+          "licensed": true,
+          "dateAdded": "2017-10-19"
+        },
+        {
+          "make": "Mercedes-Benz",
+          "model": "SL-Class",
+          "yearModel": 2005,
+          "price": 14066.06,
+          "licensed": false,
+          "dateAdded": "2018-08-08"
+        },
+        {
+          "make": "Mitsubishi",
+          "model": "RVR",
+          "yearModel": 1995,
+          "price": 22560.18,
+          "licensed": false,
+          "dateAdded": "2018-05-25"
+        },
+        {
+          "make": "Volvo",
+          "model": "850",
+          "yearModel": 1995,
+          "price": 25762.08,
+          "licensed": true,
+          "dateAdded": "2017-10-03"
+        },
+        {
+          "make": "Honda",
+          "model": "del Sol",
+          "yearModel": 1994,
+          "price": 18840.96,
+          "licensed": true,
+          "dateAdded": "2017-11-25"
+        },
+        {
+          "make": "Infiniti",
+          "model": "Q",
+          "yearModel": 1996,
+          "price": 28773.14,
+          "licensed": true,
+          "dateAdded": "2018-08-09"
+        },
+        {
+          "make": "Mercedes-Benz",
+          "model": "500E",
+          "yearModel": 1992,
+          "price": 17141.08,
+          "licensed": true,
+          "dateAdded": "2018-08-13"
+        },
+        {
+          "make": "GMC",
+          "model": "Envoy XL",
+          "yearModel": 2002,
+          "price": 18983.52,
+          "licensed": true,
+          "dateAdded": "2018-03-14"
+        },
+        {
+          "make": "Volkswagen",
+          "model": "Touareg 2",
+          "yearModel": 2008,
+          "price": 15611.22,
+          "licensed": true,
+          "dateAdded": "2018-02-22"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Warehouse D",
+    "location": {
+      "lat": "-70.84354",
+      "long": "132.22345"
+    },
+    "cars": {
+      "location": "Suid wing",
+      "vehicles": [
+        {
+          "make": "Saab",
+          "model": "900",
+          "yearModel": 1987,
+          "price": 8771,
+          "licensed": false,
+          "dateAdded": "2017-12-01"
+        },
+        {
+          "make": "Mazda",
+          "model": "B-Series",
+          "yearModel": 1998,
+          "price": 23407.59,
+          "licensed": false,
+          "dateAdded": "2018-03-01"
+        },
+        {
+          "make": "GMC",
+          "model": "Sierra 3500",
+          "yearModel": 2012,
+          "price": 5869.23,
+          "licensed": true,
+          "dateAdded": "2018-04-27"
+        },
+        {
+          "make": "Chevrolet",
+          "model": "Corvette",
+          "yearModel": 1964,
+          "price": 16630.67,
+          "licensed": true,
+          "dateAdded": "2018-05-31"
+        },
+        {
+          "make": "Toyota",
+          "model": "Tacoma",
+          "yearModel": 1997,
+          "price": 11597.18,
+          "licensed": false,
+          "dateAdded": "2018-03-30"
+        },
+        {
+          "make": "GMC",
+          "model": "Sonoma",
+          "yearModel": 2004,
+          "price": 18248.21,
+          "licensed": false,
+          "dateAdded": "2018-03-09"
+        },
+        {
+          "make": "Bugatti",
+          "model": "Veyron",
+          "yearModel": 2009,
+          "price": 8051.64,
+          "licensed": false,
+          "dateAdded": "2018-01-10"
+        },
+        {
+          "make": "Dodge",
+          "model": "Ram 1500 Club",
+          "yearModel": 1996,
+          "price": 14008.3,
+          "licensed": false,
+          "dateAdded": "2018-05-01"
+        },
+        {
+          "make": "Land Rover",
+          "model": "Discovery Series II",
+          "yearModel": 2001,
+          "price": 18620.19,
+          "licensed": false,
+          "dateAdded": "2018-03-03"
+        },
+        {
+          "make": "Volvo",
+          "model": "960",
+          "yearModel": 1993,
+          "price": 7316.93,
+          "licensed": true,
+          "dateAdded": "2018-02-15"
+        },
+        {
+          "make": "Chrysler",
+          "model": "LHS",
+          "yearModel": 2001,
+          "price": 29444.71,
+          "licensed": false,
+          "dateAdded": "2017-10-25"
+        },
+        {
+          "make": "Porsche",
+          "model": "944",
+          "yearModel": 1984,
+          "price": 7396.95,
+          "licensed": true,
+          "dateAdded": "2017-10-26"
+        },
+        {
+          "make": "Subaru",
+          "model": "Legacy",
+          "yearModel": 2010,
+          "price": 24491.8,
+          "licensed": false,
+          "dateAdded": "2017-12-26"
+        },
+        {
+          "make": "Volvo",
+          "model": "XC90",
+          "yearModel": 2003,
+          "price": 29009.65,
+          "licensed": true,
+          "dateAdded": "2018-04-24"
+        },
+        {
+          "make": "Buick",
+          "model": "Skyhawk",
+          "yearModel": 1985,
+          "price": 10567.27,
+          "licensed": false,
+          "dateAdded": "2018-03-21"
+        },
+        {
+          "make": "GMC",
+          "model": "Envoy XUV",
+          "yearModel": 2004,
+          "price": 20997.71,
+          "licensed": true,
+          "dateAdded": "2018-03-27"
+        },
+        {
+          "make": "Volvo",
+          "model": "S60",
+          "yearModel": 2009,
+          "price": 28614.95,
+          "licensed": false,
+          "dateAdded": "2018-07-25"
+        },
+        {
+          "make": "Pontiac",
+          "model": "Montana",
+          "yearModel": 2000,
+          "price": 11221.14,
+          "licensed": false,
+          "dateAdded": "2018-01-04"
+        },
+        {
+          "make": "Lexus",
+          "model": "RX",
+          "yearModel": 2002,
+          "price": 23194.01,
+          "licensed": false,
+          "dateAdded": "2018-05-02"
+        },
+        {
+          "make": "Lexus",
+          "model": "RX",
+          "yearModel": 2000,
+          "price": 17805.45,
+          "licensed": false,
+          "dateAdded": "2018-09-11"
+        }
+      ]
+    }
+  }
+]
