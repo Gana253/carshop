@@ -31,6 +31,16 @@
       <td>
         {{vehicle.dateAdded}}
       </td>
-
+      <td>
+        <div *ngIf = "vehicle.licensed == 'true'">
+          <button class="accordion" (click)="toggleAccordian($event)"></button>
+          <div class="panel" hide="!item.isActive">
+            <p>  Warehouse:{{vehicle.car.wareHouse.name}} </p>
+            <p>  Latitude :{{vehicle.car.wareHouse.location.lat}} </p>
+            <p>  Longitude:{{vehicle.car.wareHouse.location.long}} </p>
+            <p>  Location :{{vehicle.car.location}} </p>
+          </div>
+        </div>
+      </td>
     </tr>
 </table>
