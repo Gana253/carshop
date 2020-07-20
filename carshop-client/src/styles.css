@@ -2,3 +2,58 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+#cars {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#cars td, #cars th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cars tr:nth-child(even){background-color: #f2f2f2;}
+
+#cars tr:hover {background-color: #ddd;}
+
+#cars th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: honeydew;
+  color: black;
+}
+
+
+
+.cart-count {
+  color: #FFF;
+  position: relative;
+}
+.cart-count em {
+  height: 24px;
+  background-color: red;
+  font-style: normal;
+  padding: 0;
+  border-radius: 50px;
+  position: absolute;
+  top: -5px;
+  right: -14px;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.cart-total {
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  flex-flow: row;
+  align-items: normal;
+  justify-content: space-between;
+}
+

@@ -6,22 +6,22 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {CarListComponent} from './car-list/car-list.component';
 import {HttpClientModule} from '@angular/common/http';
-import {MatCardModule , MatToolbarModule } from '@angular/material';
+import {CartComponent} from './cart/cart.component';
+import {CartService} from './shared/api/cart.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarListComponent
+    CarListComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    MatCardModule,
-    MatToolbarModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [CartService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

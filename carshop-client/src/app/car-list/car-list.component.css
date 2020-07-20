@@ -3,30 +3,11 @@ h1
   text-align: center;
   color: darkseagreen;
 }
-
-
-#cars {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+.mat-card-title {
+  font-size: 30px;
+  color: white;
 }
 
-#cars td, #cars th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#cars tr:nth-child(even){background-color: #f2f2f2;}
-
-#cars tr:hover {background-color: #ddd;}
-
-#cars th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: honeydew;
-  color: black;
-}
 accordion {
   background-color: #eee;
   color: #444;
@@ -63,4 +44,5 @@ accordion {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
 

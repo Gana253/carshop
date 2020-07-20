@@ -1,0 +1,9 @@
+.product-cart {
+  position: fixed;
+  right: 25px;
+  top: 60px;
+  width: 250px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  box-shadow: 0 5px 15px rgba(0,0,0, 0.2);
+}

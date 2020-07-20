@@ -1,5 +1,6 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output, Renderer2} from '@angular/core';
 import {CarsService} from '../shared/api/cars.service';
+import {CartService} from '../shared/api/cart.service';
 
 @Component({
   selector: 'app-car-list',
@@ -10,10 +11,15 @@ export class CarListComponent implements OnInit {
   cars: Array<any>;
   headers = ['MAKE', 'MODEL', 'YEAR MODEL', 'PRICE', 'LICENSED', 'DATE ADDED', 'MORE DETAILS'];
   vehicles: Array<any> = [];
+  cartProductCount = 0;
+ /* @Input() products: any = [];*/
+  singleProduct;
+  isAdded;
+
   @Input() active = false;
   @Output() toggleAccordion: EventEmitter<boolean> = new EventEmitter();
 
-  constructor(private carsService: CarsService) {
+  constructor(private carsService: CarsService, private cartService: CartService) {
   }
 
   ngOnInit() {
@@ -25,6 +31,24 @@ export class CarListComponent implements OnInit {
         return new Date(val1.dateAdded) - new Date(val2.dateAdded);
       });
       console.log(this.vehicles);
+    });
+    this.isAdded = new Array(this.vehicles.length);
+    this.isAdded.fill(false, 0, this.vehicles.length);
+    console.log('this.isAdded -> ', this.isAdded, this.vehicles);
+    this.cartService.getProducts().subscribe(data => {
+      this.cartProductCount = data.length;
+    });
+
+    this.cartService.getProducts().subscribe(data => {
+
+      if (data && data.length > 0) {
+
+      } else {
+        this.vehicles.map((item, index) => {
+          this.isAdded[index] = false;
+        });
+      }
+
     });
   }
 
@@ -45,5 +69,29 @@ export class CarListComponent implements OnInit {
     } else {
       panel.style.maxHeight = panel.scrollHeight + 'px';
     }
+  }
+  // Add item in cart on Button click
+  // ===============================
+
+  addToCart(event, productId) {
+
+    // If Item is already added then display alert message
+    if (event.target.classList.contains('btn-success')) {
+      alert('This product is already added into cart.');
+      return false;
+    }
+
+    // Change button color to green
+    this.vehicles.map((item, index) => {
+      if (item.id === productId) {
+        this.isAdded[index] = true;
+      }
+    });
+
+    this.singleProduct = this.vehicles.filter(product => {
+      return product.id === productId;
+    });
+
+    this.cartService.addProductToCart(this.singleProduct[0]);
   }
 }
