@@ -1,6 +1,6 @@
 ## Carshop Application
 
-This application is a prototype of online car shop. User can but the cars which are listed.
+This application is a prototype of online car shop. User can buy the cars which are listed.
 ## Tech Stack
 1. Java 8
 2. Spring Boot
